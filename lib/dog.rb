@@ -6,7 +6,7 @@ class Dog
     @breed ||= breed
   end
   
-  puts breed
+  puts @breed
 end
 
 
