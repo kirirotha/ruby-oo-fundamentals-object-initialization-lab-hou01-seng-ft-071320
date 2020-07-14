@@ -4,10 +4,10 @@ class Dog
     @name = name
  
     @breed ||= breed
+    puts breed
   end
 end
 
 
 Dog
 
-puts breed
